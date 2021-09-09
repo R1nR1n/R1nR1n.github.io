@@ -18,7 +18,7 @@ async function changePadding() {
         await sleep(2000)
         textbox.style.opacity = "1"
         textbox.style.height = "auto"
-        textbox.style.paddingTop = "70px"
+        textbox.style.paddingTop = "0px"
     }
     opened = !opened
 }
